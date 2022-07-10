@@ -6,7 +6,7 @@ const Pagination = () => {
   return (<div className="pagination">
     {prevPageUrl && <button className="load-more" onClick={()=>(
       setCurrentPageUrl(prevPageUrl)
-    )}>Previous</button>}
+    )}>Prev</button>}
     
     {nextPageUrl && <button className="load-more" onClick={()=>(
       setCurrentPageUrl(nextPageUrl)

@@ -113,8 +113,7 @@ h3 {
   border-radius: 2px;
   border: 1px solid #c6c6c6;
   color: #444;
-  padding: 0.5rem 5rem;
-/*   min-width: 20%; */
+  padding: 0.5rem 4rem;
   margin: 1rem .5rem;
   transition: .5s;
 }
@@ -127,4 +126,10 @@ h3 {
   justify-content: center;
   align-items: center;
   min-height:100vh;
+}
+. pagination {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
