@@ -45,7 +45,6 @@ export const PokemonProvider = ({ children }) => {
     const searchedList = data?.results.filter(({ name }) => name.toLowerCase().includes(searchedTerm))
 
     getAllPokemons(searchedList)
-    console.log(searchedList)
   }
 
   useEffect(() => {
