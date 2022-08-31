@@ -42,7 +42,7 @@ export const PokemonProvider = ({ children }) => {
     const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
     const data = await res.json()
 
-    const searchedList = data?.results.filter(({ name }) => name.toLowerCase().includes(searchedTerm))
+    const searchedList = data?.results.filter(({ name }) => name.toLowerCase().includes(searchedTerm.toLowerCase()))
 
     getAllPokemons(searchedList)
   }
